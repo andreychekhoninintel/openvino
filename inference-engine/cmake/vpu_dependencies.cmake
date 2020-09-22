@@ -19,7 +19,11 @@ set(VPU_SUPPORTED_FIRMWARES usb-ma2450 usb-ma2x8x pcie-ma248x)
 # Default packages
 #
 
+<<<<<<< HEAD
 set(FIRMWARE_PACKAGE_VERSION 1397)
+=======
+set(FIRMWARE_PACKAGE_VERSION 1402)
+>>>>>>> Update firmware
 set(VPU_CLC_MA2X8X_VERSION "movi-cltools-20.09.1")
 
 #
