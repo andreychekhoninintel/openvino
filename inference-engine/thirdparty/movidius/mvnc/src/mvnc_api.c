@@ -424,11 +424,7 @@ static ncStatus_t getDeviceFwProtocolPrefix(const deviceDesc_t deviceDesc,
 
 static char* getDevicePlatform(deviceDesc_t deviceDesc, int useUniversalFirmware) {
     if (deviceDesc.platform == X_LINK_MYRIAD_X) {
-        if (useUniversalFirmware && deviceDesc.protocol != X_LINK_PCIE) {
-            return "ma2x8x";
-        } else {
-            return "ma248x";
-        }
+        return "ma2x8x";
     } else if (deviceDesc.platform == X_LINK_MYRIAD_2) {
         return "ma2450";
     }
